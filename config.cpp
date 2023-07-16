@@ -72,13 +72,19 @@ class cfgWeapons {
 		s_recoilControlMisalignmentY = 0.75;
 		s_recoilControlKick = 0.75;
 	};
-	class MP5K;
 	class ttagram: MP5K {
 		s_recoilControlStabilityX = 0.7;
 		s_recoilControlStabilityY = 0.7;
 		s_recoilControlMisalignmentX = 0.5;
 		s_recoilControlMisalignmentY = 0.75;
 		s_recoilControlKick = 0.85;
+	};
+	class ots71: MP5K {
+		s_recoilControlStabilityX = 0.75;
+		s_recoilControlStabilityY = 0.75;
+		s_recoilControlMisalignmentX = 0.25;
+		s_recoilControlMisalignmentY = 0.5;
+		s_recoilControlKick = 0.55;
 	};
 	class FNX45;
 	class tec9: FNX45 {
@@ -88,14 +94,7 @@ class cfgWeapons {
 		s_recoilControlMisalignmentY = 0.75;
 		s_recoilControlKick = 0.85;
 	};
-	class MP5K;
-	class ots71: MP5K {
-		s_recoilControlStabilityX = 0.75;
-		s_recoilControlStabilityY = 0.75;
-		s_recoilControlMisalignmentX = 0.25;
-		s_recoilControlMisalignmentY = 0.5;
-		s_recoilControlKick = 0.55;
-	};
+	
 	//End SMG
 };
 
